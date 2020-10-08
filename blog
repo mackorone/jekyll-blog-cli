@@ -36,7 +36,10 @@ def get_file_paths(directory):
 def get_path_from_title(directory, title):
     for path in get_file_paths(directory):
         filename = os.path.basename(path)
-        if filename.endswith(title):
+        if (
+            filename.endswith(title) or
+            filename.endswith(title + ".md")
+        ):
             return path
     return None
 
