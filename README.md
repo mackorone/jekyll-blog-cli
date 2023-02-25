@@ -1,3 +1,12 @@
+# :pushpin: Deprecated
+
+This repo is no longer active.
+
+I have a new [bash script](https://github.com/mackorone/dotfiles/blob/main/bashrc/blog.sh) that works better for my needs.
+
+<details>
+<summary><h4>Click to view original README.md</h4></summary>
+
 # jekyll-blog-cli
 
 A small CLI for managing Jekyll blog posts
